@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    margin: 10px;
+    padding: 20px;
+   
+}
+#header{
+    height: 40px;
+    width: 100%;
+   color: white;
+    background-color: #270082;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#head{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    align-items: center;
+}
+#image{
+    background-image: url(music.png);
+     min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+}
+.music{
+       color: white;
+       margin: 15px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       text-align: center;
+     
+}
+#image p{
+    width: 60%;
+    margin: 0 auto;
+}
+#image h1{
+       font-size: 55px;
+}
+#image h3{
+    font-weight: lighter;
+}
+#bigbox{
+    border: 2px solid black;
+    height: 2100px;
+}
+#limit{
+    background-color: #281154;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 700px;
+    padding: 40px;
+    
+    
+}
+.millions {
+    color: white;
+    margin: 10px;
+    /* color limit ki to photo apne size m fix ho gai */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#button{
+
+    background-color: red;
+    width: 100%;
+    font-size: medium;
+    margin: 10px;
+    height: 40px;
+    padding-top: 8px;
+    transition: all 0.6s linear 0s;
+    text-align: center;
+}
+#button:hover{
+    background-color: orange;
+    transform: scale(1.1);  
+}
+#para{
+    width: 60%;
+}
+#organic{
+    font-weight: 100;
+    color: rgb(193, 190, 190);
+    
+}
+#iphone{
+  margin-top: 50px;
+    /* transform: translate(500px,100px);
+    transform kar skte h */
+}
+#movie,#with{
+    color: black;
+
+}
+.withover{
+    font-size: larger;
+    margin: 20px;
+    width: 70%;
+    text-align: center;
+    font-weight: normal;
+}
+#read{
+    background-color: #270082;
+    color: white;
+    width: 100%;
+    height: 60%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    margin: 20px;
+    padding-top: 12px;
+}
+
+
+#mac{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#video{
+    height: 900px;
+    background-color: red;
+    /* display: grid; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+}
+.world{
+    text-align: center;
+    color: white;
+    font-size: large;
+ 
+ 
+    margin: 30px;
+    
+}
+#Giftcard{
+    display: flex;
+    margin: 90px;
+    padding-left: 100px;
+
+}
+#redeem{
+    color: white;
+    background-color: #270082;
+    margin: 20px;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#text{
+   margin: 20px;
+   width: 650px;
+   padding-left: 50px;
+}
+#Card{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0em;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+    align-items: center;
+    background-color: #281154;
+    color: white;
+    height: 270px;
+}
+#copyright{
+    background-color: #270082 ;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
